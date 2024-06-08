@@ -1,0 +1,32 @@
+/* Resets gerais */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: gray;
+}
+footer{
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-container ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    list-style-type: none;
+    
+}
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:10%;
+}
