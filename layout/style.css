@@ -32,7 +32,22 @@ footer{
     align-items: center;
     margin-left: 10%;
     list-style-type: none;
-    
+    padding-top: 22px;
+    padding-bottom: 22px;
+    cursor: pointer;
+}
+
+.navbar-container ul li{
+    background-color: white;
+    color: gray;
+    border-radius: 15px;
+    padding: 24px;
+
+}
+.navbar-container ul li:hover, .navbar-container ul li h1:hover{
+    background-color: rgb(13, 209, 193);
+    color: blue;
+    border-radius: 5px;
 }
 .test {
     display: flex;
