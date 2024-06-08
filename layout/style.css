@@ -6,6 +6,17 @@
 header{
     background-color: gray;
 }
+
+body {
+    background-image: url(../assets/img/gm-dragons-dogma.jpg);
+    backdrop-filter: blur(3px);
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
 footer{
     text-align: center;
 }
